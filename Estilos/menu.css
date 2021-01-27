@@ -1,0 +1,95 @@
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+/*	Lista   */
+ul
+{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	background: darkcyan;
+	border-bottom: 15px solid rgba(0,0,0,0.15);
+	display: flex;
+	height: auto;
+	z-index: 10;
+}
+
+/*	Elementos */
+ul li
+{
+	position: relative;
+	list-style: none;
+	transition: all .3s linear;
+	flex-grow: 4;
+	text-align: center;
+	padding: 15px;
+	border-right: 2px solid rgba(0,0,0,0.15);
+}
+
+/*	Enlaces	*/
+ul li a
+{
+	text-decoration: none;
+	color: rgba(0,0,0,0.15);
+	font-size: 35px;
+	transition: all .3s linear;
+	padding: 30px;
+	text-align: center;
+}
+
+ul li a:hover
+{
+	color: #fff;
+}
+
+ul li:hover
+{
+	background: rgba(0,0,0,0.05);
+}
+
+#bar
+{
+	color: rgba(0,0,0,0.15);
+}
+
+#btn-check,#bar
+{
+	display: none;
+}
+
+#btn-check:checked ~ ul
+{
+	display: block;
+	width: 30%;
+}
+
+#bar
+{
+	position: relative;
+	font-size: 30px;
+	background: darkcyan;
+	padding: 15px;
+	border-bottom: 5px solid rgba(0,0,0,0.15);
+	border-right: 5px solid rgba(0,0,0,0.15);
+}
+
+/*	Diseño Responsivo		*/
+
+@media (max-width: 768px)
+{
+
+	ul
+	{
+		display: none;
+		top: 60px;
+	}
+
+	#bar
+	{
+		display: inline-block;
+	}
+}

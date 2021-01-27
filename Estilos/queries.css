@@ -1,0 +1,43 @@
+
+.container .topic,
+#search-field,
+button,
+#book,
+#querie
+{
+    margin-top: 30px;
+    margin-left: 15%;
+    line-height: 100px;
+}
+
+.topic
+{
+    font-size: 38px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+#search-field
+{
+    width: 60%;
+    height: 10%;
+    font-family: 'Montserrat';
+    padding: 15px;
+}
+
+#search-btn
+{
+    padding: 15px;
+    border: solid 1px rgba(0,0,0,0.05);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: -0.1%;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+}
+
+.text
+{
+    color: ivory;
+    font-size:25px;
+}
