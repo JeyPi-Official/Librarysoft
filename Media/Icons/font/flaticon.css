@@ -1,0 +1,38 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 23/11/2020 17:30
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("Media/Icons/font/Flaticon.eot");
+  src: url("Media/Icons/font/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("Media/Icons/font/Flaticon.woff2") format("woff2"),
+       url("Media/Icons/font/Flaticon.woff") format("woff"),
+       url("Media/Icons/font/Flaticon.ttf") format("truetype"),
+       url("Media/Icons/font/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("Media/Icons/font/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-menu:before { content: "\f100"; }
+.flaticon-hogar:before { content: "\f101"; }
+.flaticon-simbolo-de-interfaz-de-lupa-de-busqueda:before { content: "\f102"; }
+.flaticon-usuario:before { content: "\f103"; }
+.flaticon-informacion:before { content: "\f104"; }
+.flaticon-boton-de-encendido:before { content: "\f105"; }
