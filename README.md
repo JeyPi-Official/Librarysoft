@@ -1,7 +1,20 @@
 # Librarysoft
 
-## Summary
-Librarysoft es una aplicación web desarrollada para administrar el uso del material bibliotecario para el Colegio de Estudios Científicos y Tecnológicos del Estado de Querétaro, plantel #07. El cual utiliza lenguajes de programación vistos durante la carrera de programación y bases de datos relacionales para llevar un registro diario del inventario en la biblioteca.
+## Overview
+Librarysoft is a web application designed to manage the use of library resources for the Colegio de Estudios Científicos y Tecnológicos del Estado de Querétaro, plantel #07. The application utilizes programming languages and relational databases to maintain daily inventory records in the library.
 
 ## Features
-No hay imágenes públicas del programa en funcionamiento por terminos y condiciones sobre la confidencialidad de la institución. 
+- User-friendly interface for managing library materials.
+- Daily tracking of library inventory.
+- Developed using PHP, HTML, and CSS.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/JeyPi-Official/Librarysoft.git
+   ```
+2. Set up a local server with PHP support.
+3. Access the application through your browser.
+
+## License
+No license information is provided.
